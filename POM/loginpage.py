@@ -116,4 +116,8 @@ class login:
         time.sleep(2)
 
 
+    def add(self):
+        print("helo")
+
+
 
