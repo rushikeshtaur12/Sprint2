@@ -114,8 +114,7 @@ class login:
     def payment(self):
         self.driver.find_element(*login_obj['tc_payment']).click()
         time.sleep(2)
-    def add(self):
-        print("hi")
+
 
 
 
