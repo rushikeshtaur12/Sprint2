@@ -5,7 +5,7 @@ from librery.config import Config
 from webdriver_manager.microsoft import EdgeChromiumDriverManager # cross browsing
 from webdriver_manager.firefox import GeckoDriverManager
 
-@pytest.fixture(params=["Safari","Chrome"])
+@pytest.fixture(params=["Chrome"])
 def _driver(request):
     if request.param == "Chrome":
         driver_obj = webdriver.Chrome(ChromeDriverManager().install())
