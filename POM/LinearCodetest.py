@@ -63,7 +63,7 @@
 # time.sleep(2)
 #
 # '''Traveller details'''
-#name
+# name
 # driver_obj.find_element("xpath","//input[@placeholder='Enter Full Name']").send_keys("Rushikesh Taur")
 # time.sleep(2)
 #
